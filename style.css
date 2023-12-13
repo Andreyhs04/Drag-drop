@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(Gumball.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    
+}
+
+.container{
+    background-color: #ffffff05;
+    border: 2px solid #ffffff10;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    color: rgba(57, 8, 178, 0.759);
+    font: 700 40px 'Gumball', sans-serif;
+}
+
+.coluna {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgba(9, 2, 150, 0.759);
+    font: 500 40px 'Gumball', sans-serif;
+}
+
+ul.tarefas {
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+ul.tarefas li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form#adicionar-tarefa {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #aa00ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #8900b3;
+}
+@font-face {
+    font-family: 'Inclivel mundo de Gumball';
+    src: url(Gumball.ttf);
+}
+
+h1 {
+    color: rgba(57, 8, 178, 0.759);
+    font: 700 40px 'Gumball', sans-serif;
+}
+
+
